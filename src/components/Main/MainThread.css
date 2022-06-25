@@ -1,0 +1,33 @@
+
+.main-threades__header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #beb4bf;
+}
+.main-threades__header--title {
+  padding: 0 16px;
+}
+.main-threades__body {
+  width: 100%;
+  height: calc(100vh - 93px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-threades__body__title {
+  font-size: 18px;
+  line-height: 1.33334;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.main-threades__body__body {
+  margin-bottom: 8px;
+}
+
+.main-threades__body__footer--text {
+  text-decoration: none;
+  color: #1164a3;
+}
